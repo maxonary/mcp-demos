@@ -6,7 +6,7 @@ implementations, best practices, and detailed explanations to help you learn and
 implement these solutions in your own projects.
 
 📺 Check out the full tutorials on my YouTube channel:
-[BitSwired](https://youtube.com/@bitswired)
+[Bitswired](https://youtube.com/@bitswired)
 
 # Project Index
 
