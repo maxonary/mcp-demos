@@ -3,7 +3,7 @@
 
 This project helps you analyze entire codebases with LLMs by flattening directory structures into a single file with XML-style path tags. No more manual copy-pasting of files!
 
-📺 [Watch the Tutorial](https://youtube.com/@bitswired)
+📺 [Watch the Tutorial](https://youtu.be/Q9-DpH0D4vg)
 
 ## Key Features
 

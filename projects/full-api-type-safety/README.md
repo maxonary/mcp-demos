@@ -4,7 +4,7 @@ This project demonstrates how to implement complete type safety between a
 FastAPI backend and React frontend using OpenAPI-Fetch. Say goodbye to the `any`
 type and manual interface definitions when working with APIs!
 
-📺 [Watch the Full Tutorial](https://youtube.com/@bitswired)
+📺 [Watch the Full Tutorial](https://youtu.be/qgyCB39hlRM)
 
 ## Key Features
 

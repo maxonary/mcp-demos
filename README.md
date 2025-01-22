@@ -29,8 +29,26 @@ Tech Stack:
 - Backend: FastAPI, Python
 - Tools: OpenAPI TypeScript
 
-[View Tutorial](https://youtube.com/@bitswired) |
+[View Tutorial](https://youtu.be/qgyCB39hlRM) |
 [Source Code](projects/full-api-type-safety/README.md)
+
+
+## Flatten Directories for AI Code Analysis
+🔗 [Project Code](projects/flatten-dir-for-ai/README.md)
+
+Transform entire codebases into LLM-friendly single files. This lightweight Python tool helps you:
+- Flatten directory structures with path context
+- Generate AI-ready code analysis files
+- Skip binary files and specific directories
+- Zero-install usage with uv
+- Under 100 lines of code
+
+Tech Stack:
+- Python, Typer
+- Zero dependencies with uv
+
+[View Tutorial](https://youtu.be/Q9-DpH0D4vg) | 
+[Source Code](projects/flatten-dir-for-ai/README.md)
 
 ---
 
