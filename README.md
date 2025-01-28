@@ -12,9 +12,9 @@ implement these solutions in your own projects.
 
 ## 10 Advanced Tailwind Tricks from Shadcn
 
-🔗 [Project Code](projects/10-tailwind-tricks-from-shadcn/README.md) Master
-advanced Tailwind CSS techniques inspired by Shadcn. Learn powerful styling
-patterns that will transform how you build React components:
+🔗 [Project Code](projects/10-tailwind-tricks-from-shadcn/README.md) 
+
+Master advanced Tailwind CSS techniques inspired by Shadcn. Learn powerful styling patterns that will transform how you build React components:
 
 - Dynamic CSS variable manipulation
 - Advanced state management with data attributes
