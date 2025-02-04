@@ -10,7 +10,7 @@ This repository demonstrates different approaches to implementing upsert
 From manual implementations to optimized bulk operations, learn how to handle
 data persistence efficiently.
 
-📺 [Watch the Tutorial](https://youtu.be/Q9-DpH0D4vg)
+📺 [Watch the Tutorial](https://youtu.be/d0Dv7r3JuWA)
 
 ## Key Features
 
