@@ -1,0 +1,9 @@
+layout {
+    pane split_direction="vertical" {
+        pane name="terminal" size="30%"
+        pane name="code" size="70%" command="zsh" {
+		args "-c" "source .venv/bin/activate && nvim main.py"
+	}
+    }
+}
+
