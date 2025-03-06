@@ -63,7 +63,7 @@ uv run main.py
 ## Project Structure
 
 ```
-semaphore-concurrency-trick/
+python-concurrency-guards/
 ├── README.md          # Project documentation
 ├── main.py            # Main script with concurrency demos
 ├── pyproject.toml     # Project metadata and dependencies
