@@ -44,9 +44,10 @@
 
 ### Usage
 
-1. Run the MCP server: `uv run mcp_server.py`
-2. In a new terminal, run the MCP client: `uv run mcp_client.py`
-3. Enter your SQL queries in natural language.
+1. Run the MCP client: `uv run mcp_client.py`
+2. Enter your SQL queries in natural language.
+
+Note that you don't need to explicitly run the server, as the client automatically runs it.
 
 ## Project Structure
 
