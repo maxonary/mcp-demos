@@ -8,6 +8,18 @@ development container.
 
 📺 [Watch the Tutorial](https://youtu.be/EKIgnMGwLFw)
 
+## Demos
+
+### Demo 1
+https://github.com/user-attachments/assets/04805762-09d7-425a-826c-10fee7190b67
+
+### Demo 2
+https://github.com/user-attachments/assets/7dd47778-595a-4e6b-9dca-51c6ed7f760e
+
+### Demo 3
+https://github.com/user-attachments/assets/d7e2bc51-93f5-41b8-9287-1123cfe40a5a
+
+
 ## Key Features
 
 - Implements an agentic loop for automated code development.
