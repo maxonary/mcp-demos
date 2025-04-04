@@ -42,7 +42,7 @@ class Chat:
 
         # Initial Claude API call
         res = await anthropic_client.messages.create(
-            model="claude-3-7-sonnet-latest",
+            model="claude-3-5-sonnet-latest",
             system=self.system_prompt,
             max_tokens=8000,
             messages=self.messages,
