@@ -35,8 +35,25 @@
 1. Clone the repository.
 2. Navigate to the project directory:
    `cd projects/introduction-to-mcp-with-sql-agent`
-3. Install dependencies using uv: `uv sync`
-4. Create a `.env` file with your Anthropic API key:
+3. (If you are behind a corporate proxy or need a custom CA certificate, e.g. `/Users/WD0W7OW/PAG-Interception-CA-ROOT-01.crt`, set these environment variables before installing dependencies:)
+
+   ```sh
+   export REQUESTS_CA_BUNDLE=/path/to/your/CA.crt
+   export SSL_CERT_FILE=/path/to/your/CA.crt
+   ```
+   Replace `/path/to/your/CA.crt` with your actual certificate path.
+
+4. Create and activate a virtual environment:
+   ```sh
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+5. Install dependencies using pip:
+   ```sh
+   pip install anthropic docker "instructor[claude]" loguru "mcp[cli]" pydantic python-dotenv rich
+   ```
+   (If you use `uv`, you can try `uv sync`, but pip is more reliable in restricted environments.)
+6. Create a `.env` file with your Anthropic API key:
 
    ```
    ANTHROPIC_API_KEY=sk-ant-api03-YOUR_API_KEY
@@ -44,10 +61,35 @@
 
 ### Usage
 
-1. Run the MCP client: `uv run mcp_client.py`
-2. Enter your SQL queries in natural language.
+1. Activate your virtual environment if not already active:
+   ```sh
+   source .venv/bin/activate
+   ```
+2. Run the MCP client:
+   ```sh
+   python mcp_client.py
+   ```
+3. Enter your SQL queries in natural language.
 
 Note that you don't need to explicitly run the server, as the client automatically runs it.
+
+---
+
+## Troubleshooting
+
+- **SSL or certificate errors when installing dependencies:**
+  - Make sure to set `REQUESTS_CA_BUNDLE` and `SSL_CERT_FILE` to your custom CA certificate path before running pip or uv.
+  - Example:
+    ```sh
+    export REQUESTS_CA_BUNDLE=/Users/WD0W7OW/PAG-Interception-CA-ROOT-01.crt
+    export SSL_CERT_FILE=/Users/WD0W7OW/PAG-Interception-CA-ROOT-01.crt
+    ```
+- **Anthropic API key errors:**
+  - Ensure your `.env` file exists and contains a valid `ANTHROPIC_API_KEY`.
+  - Or, set it in your shell before running the client:
+    ```sh
+    export ANTHROPIC_API_KEY=sk-ant-api03-YOUR_API_KEY
+    ```
 
 ## Project Structure
 
